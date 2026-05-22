@@ -1,24 +1,37 @@
-# 💫 About Me:
-Fullstack <br>A-pnt in leo-costellation<br>Ai engineering
+<!-- HERO -->
+<div align="center">
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=gradient&customColorList=6,11,20,24,30&text=Matteo%20Benfatto&fontSize=58&fontAlign=50&fontAlignY=38&desc=Fullstack%20Developer%20%7C%20AI%20Engineer%20%7C%20Automation%20Builder&descSize=18&descAlign=50&descAlignY=58&animation=twinkling" />
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/matteobenfatto97) 
+<br/>
 
-# 💻 Tech Stack:
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=Twilio&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=matteobenfatto97&theme=neon&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=matteobenfatto97&theme=neon&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=matteobenfatto97&theme=neon&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=800&color=8A2BE2&center=true&vCenter=true&width=900&lines=I+build+intelligent+systems.;AI-powered+apps%2C+automation+and+fullstack+products.;A+point+in+the+Leo+constellation.;Turning+ideas+into+living+software." />
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=matteobenfatto97&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4)
+<br/><br/>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=tokyonight)
+<a href="https://linkedin.com/in/matteobenfatto97">
+  <img src="https://img.shields.io/badge/LinkedIn-Matteo%20Benfatto-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://github.com/matteobenfatto97">
+  <img src="https://img.shields.io/badge/GitHub-matteobenfatto97-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=matteobenfatto97&style=for-the-badge&color=8A2BE2&label=PROFILE+VIEWS" />
+
+</div>
 
 ---
-[![](https://komarev.com/ghpvc/?username=matteobenfatto97&icon=5&color=9)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🧬 Identity
+
+```ts
+const matteo = {
+  role: "Fullstack Developer & AI Engineer",
+  mindset: "build fast, automate deeply, think systemically",
+  focus: ["AI Engineering", "Web Apps", "APIs", "Automation", "Cloud-ready Systems"],
+  stack: ["Python", "TypeScript", "React", "FastAPI", "Docker", "Redis"],
+  mission: "turn complex ideas into elegant, intelligent software",
+  signature: "a point in the Leo constellation"
+};
