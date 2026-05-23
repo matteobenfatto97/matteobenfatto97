@@ -229,25 +229,6 @@ a clean interface, a solid architecture, an intelligent workflow and a real prob
 
 ---
 
-## 🌌 The Leo Signature
-
-<div align="center">
-
-```txt
-                 ✦
-              Regulus
-                 *
-        *                *
-     Algieba          Denebola
-
-              Matteo
-       a point in the Leo constellation
-```
-
-</div>
-
----
-
 ## 🧪 Current Orbit
 
 ```yaml
@@ -321,7 +302,7 @@ I am always interested in projects where software meets intelligence, automation
   <img src="https://img.shields.io/badge/Let's%20connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-<a href="mailto:ingo.rafael97@gmail.com">
+<a href="mailto:matteobenfatto97@gmail.com">
   <img src="https://img.shields.io/badge/Send%20me%20an%20email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
