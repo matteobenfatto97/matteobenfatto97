@@ -2,6 +2,7 @@
 <div align="center">
 
 <img width="100%" src="./assets/github-banner.png" alt="Matteo Benfatto - Futuristic AI Banner" />
+
 <br/><br/>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=6,11,20,24,30" />
@@ -10,41 +11,30 @@
 
 <img width="100%" src="./assets/hero-core.svg" alt="Matteo Benfatto - AI Core Signal" />
 
-<br/>
+<br/><br/>
 
-<div align="center">
-
-<img width="100%" src="./assets/contact-dock.svg" alt="Matteo Benfatto - Contact Dock" />
+<img width="100%" src="./assets/connect-header.svg" alt="Connect Explore Build" />
 
 <br/>
 
 <a href="https://linkedin.com/in/matteobenfatto97">
-  <img width="31%" src="./assets/contact-linkedin.svg" alt="Connect on LinkedIn" />
+  <img width="31.5%" src="./assets/contact-linkedin.svg" alt="Connect on LinkedIn" />
 </a>
 &nbsp;
 <a href="https://github.com/matteobenfatto97">
-  <img width="31%" src="./assets/contact-github.svg" alt="Explore GitHub" />
+  <img width="31.5%" src="./assets/contact-github.svg" alt="Explore GitHub" />
 </a>
 &nbsp;
 <a href="mailto:matteo.benfatto97@gmail.com">
-  <img width="31%" src="./assets/contact-email.svg" alt="Contact by Email" />
+  <img width="31.5%" src="./assets/contact-email.svg" alt="Contact by Email" />
 </a>
-<br/>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=matteobenfatto97&style=flat-square&color=8A2BE2&labelColor=050816&label=PROFILE%20SIGNAL" />
-</p>
+<br/><br/>
 
-<br/>
-<div align="center">
+<img src="https://komarev.com/ghpvc/?username=matteobenfatto97&style=flat-square&color=8A2BE2&labelColor=050816&label=PROFILE%20SIGNAL" />
 
-<img src="https://komarev.com/ghpvc/?username=matteobenfatto97&style=for-the-badge&color=8A2BE2&labelColor=0B1120&label=SIGNAL+VIEWS" />
+<br/><br/>
 
-</div>
-
-</div>
-
-<br/>
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 </div>
