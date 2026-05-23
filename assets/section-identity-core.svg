@@ -59,8 +59,6 @@
   <ellipse cx="720" cy="75" rx="520" ry="110" fill="url(#bgGlow)"/>
 
   <text x="72" y="104" class="mono number" fill="#172033">01</text>
-
-  <text x="220" y="42" class="mono kicker" fill="#64748B">MATTEO BENFATTO // SECTION 01</text>
   <circle cx="1098" cy="36" r="4" fill="#8B5CF6" filter="url(#glow)"/>
   <text x="220" y="84" class="mono title" fill="url(#titleGrad)" filter="url(#glow)">IDENTITY CORE</text>
   <text x="224" y="112" class="mono subtitle" fill="#7C8AA5">FULLSTACK SYSTEMS · AI ENGINEERING · AUTOMATION ARCHITECTURE</text>
