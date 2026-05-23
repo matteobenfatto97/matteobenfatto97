@@ -147,13 +147,17 @@ const matteo: DeveloperProfile = {
 
 <br/>
 
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=matteobenfatto97&bg_color=0D1117&color=FFFFFF&line=8A2BE2&point=38BDF8&area=true&hide_border=true" />
+
+<br/><br/>
+
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=matteobenfatto97&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=8A2BE2&icon_color=8A2BE2&text_color=FFFFFF&include_all_commits=true" />
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matteobenfatto97&layout=compact&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=8A2BE2&text_color=FFFFFF" />
 
 <br/><br/>
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=matteobenfatto97&bg_color=0D1117&color=FFFFFF&line=8A2BE2&point=38BDF8&area=true&hide_border=true" />
+<sub>Public GitHub activity snapshot · rendered through cached external services</sub>
 
 </div>
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
