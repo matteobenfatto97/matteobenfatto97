@@ -79,7 +79,7 @@
   </defs>
 
   <!-- Base banner -->
-  <image href="github-banner.png" x="0" y="0" width="1800" height="600" preserveAspectRatio="xMidYMid slice"/>
+  <image href="https://raw.githubusercontent.com/matteobenfatto97/matteobenfatto97/main/assets/github-banner.png" x="0" y="0" width="1800" height="600" preserveAspectRatio="xMidYMid slice"/>
 
   <!-- Premium cinematic overlays -->
   <rect width="1800" height="600" fill="url(#leftGlow)"/>
