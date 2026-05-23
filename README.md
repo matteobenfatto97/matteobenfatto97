@@ -2,8 +2,6 @@
 <div align="center">
 
 <img width="100%" src="./assets/github-banner.png" alt="Matteo Benfatto - Futuristic AI Banner" />
-
-<img width="100%" src="./assets/banner-signal.svg" alt="Matteo Benfatto - Banner Signal" />
 <br/><br/>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=6,11,20,24,30" />
@@ -12,25 +10,31 @@
 
 <img width="100%" src="./assets/hero-core.svg" alt="Matteo Benfatto - AI Core Signal" />
 
-<br/><br/>
+<br/>
+
+<div align="center">
+
+<img width="100%" src="./assets/contact-dock.svg" alt="Matteo Benfatto - Contact Dock" />
 
 <br/>
 
 <a href="https://linkedin.com/in/matteobenfatto97">
-  <img src="https://img.shields.io/badge/LinkedIn-Matteo%20Benfatto-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <img src="https://img.shields.io/badge/CONNECT-LINKEDIN-0A66C2?style=for-the-badge&labelColor=0B1120&logo=linkedin&logoColor=white" />
 </a>
 <a href="https://github.com/matteobenfatto97">
-  <img src="https://img.shields.io/badge/GitHub-matteobenfatto97-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/EXPLORE-GITHUB-181717?style=for-the-badge&labelColor=0B1120&logo=github&logoColor=white" />
 </a>
 <a href="mailto:matteo.benfatto97@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/CONTACT-EMAIL-EA4335?style=for-the-badge&labelColor=0B1120&logo=gmail&logoColor=white" />
 </a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=matteobenfatto97&style=for-the-badge&color=8A2BE2&label=PROFILE+VIEWS" />
+<img src="https://komarev.com/ghpvc/?username=matteobenfatto97&style=for-the-badge&color=8A2BE2&labelColor=0B1120&label=PROFILE+VIEWS" />
 
-<br/><br/>
+</div>
+
+<br/>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
