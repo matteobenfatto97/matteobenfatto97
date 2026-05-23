@@ -201,7 +201,10 @@ obsessed_with:
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&section=footer&color=gradient&customColorList=6,11,20,24,30&animation=twinkling" />
+<br/>
+
+<div align="center">
+
+<img width="100%" src="./assets/final-transmission.svg" alt="Matteo Benfatto - Final Transmission" />
 
 </div>
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
