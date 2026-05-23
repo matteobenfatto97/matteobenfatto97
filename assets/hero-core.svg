@@ -1,0 +1,226 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frame" x1="40" y1="0" x2="1160" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="28%" stop-color="#6366F1"/>
+      <stop offset="52%" stop-color="#8B5CF6"/>
+      <stop offset="76%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+
+    <linearGradient id="text" x1="250" y1="0" x2="950" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="42%" stop-color="#DDD6FE"/>
+      <stop offset="70%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <linearGradient id="mutedLine" x1="120" y1="0" x2="1080" y2="0">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#38BDF8" stop-opacity="0.65"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.9"/>
+      <stop offset="85%" stop-color="#38BDF8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="coreGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 130) rotate(90) scale(135 460)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.22"/>
+      <stop offset="0.5" stop-color="#2563EB" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="titleGlow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono {
+        font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", "Consolas", monospace;
+      }
+
+      .label {
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 3px;
+      }
+
+      .main {
+        font-size: 37px;
+        font-weight: 900;
+        letter-spacing: 0.4px;
+      }
+
+      .support {
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.4px;
+      }
+
+      .pill {
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 1.8px;
+      }
+
+      .status {
+        animation: statusPulse 2.8s ease-in-out infinite;
+      }
+
+      .node {
+        animation: nodePulse 3s ease-in-out infinite;
+      }
+
+      .node2 { animation-delay: .7s; }
+      .node3 { animation-delay: 1.4s; }
+      .node4 { animation-delay: 2.1s; }
+
+      .dash {
+        stroke-dasharray: 6 12;
+        animation: dashFlow 10s linear infinite;
+      }
+
+      .dashSlow {
+        stroke-dasharray: 3 10;
+        animation: dashFlow 16s linear infinite;
+      }
+
+      .line {
+        opacity: 0;
+        animation: rotateLine 18s infinite;
+      }
+
+      .line2 { animation-delay: 4.5s; }
+      .line3 { animation-delay: 9s; }
+      .line4 { animation-delay: 13.5s; }
+
+      .halo {
+        animation: haloBreath 5s ease-in-out infinite;
+      }
+
+      @keyframes rotateLine {
+        0% { opacity: 0; transform: translateY(8px); }
+        5% { opacity: 1; transform: translateY(0); }
+        22% { opacity: 1; transform: translateY(0); }
+        27% { opacity: 0; transform: translateY(-8px); }
+        100% { opacity: 0; transform: translateY(-8px); }
+      }
+
+      @keyframes nodePulse {
+        0%, 100% { opacity: .35; r: 2.4; }
+        50% { opacity: 1; r: 4.2; }
+      }
+
+      @keyframes statusPulse {
+        0%, 100% { opacity: .55; }
+        50% { opacity: 1; }
+      }
+
+      @keyframes dashFlow {
+        from { stroke-dashoffset: 140; }
+        to { stroke-dashoffset: 0; }
+      }
+
+      @keyframes haloBreath {
+        0%, 100% { opacity: .28; transform: scale(0.985); }
+        50% { opacity: .65; transform: scale(1); }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="260" fill="transparent"/>
+
+  <!-- Main glass panel -->
+  <rect x="28" y="24" width="1144" height="212" rx="28" fill="#050816" opacity="0.98"/>
+  <rect x="29" y="25" width="1142" height="210" rx="27" stroke="url(#frame)" stroke-width="1.4" opacity="0.78"/>
+
+  <!-- Atmospheric glow -->
+  <ellipse cx="600" cy="130" rx="470" ry="122" fill="url(#coreGlow)" class="halo"/>
+  <path d="M95 130 C245 64 390 68 520 118 C635 162 770 174 925 98 C1010 56 1080 64 1128 88" stroke="#1D4ED8" stroke-opacity="0.22" stroke-width="1.4" class="dashSlow"/>
+  <path d="M82 172 C210 138 345 160 472 184 C660 220 852 205 1035 144" stroke="#8B5CF6" stroke-opacity="0.28" stroke-width="1.2" class="dashSlow"/>
+
+  <!-- Header meta -->
+  <text x="64" y="55" class="mono label" fill="#94A3B8">MATTEO BENFATTO // CORE SIGNAL</text>
+  <text x="1136" y="55" text-anchor="end" class="mono label status" fill="#A78BFA">INTELLIGENCE LAYER ACTIVE</text>
+
+  <!-- Corner markers -->
+  <path d="M62 78 H190" stroke="url(#mutedLine)" stroke-width="2" opacity="0.8"/>
+  <path d="M1010 78 H1138" stroke="url(#mutedLine)" stroke-width="2" opacity="0.8"/>
+  <path d="M62 204 H190" stroke="url(#mutedLine)" stroke-width="2" opacity="0.55"/>
+  <path d="M1010 204 H1138" stroke="url(#mutedLine)" stroke-width="2" opacity="0.55"/>
+
+  <!-- Floating constellation nodes -->
+  <circle cx="260" cy="82" r="3" fill="#38BDF8" filter="url(#glow)" class="node"/>
+  <circle cx="322" cy="68" r="3" fill="#A78BFA" filter="url(#glow)" class="node node2"/>
+  <circle cx="388" cy="84" r="3" fill="#60A5FA" filter="url(#glow)" class="node node3"/>
+  <path d="M260 82 L322 68 L388 84" stroke="#60A5FA" stroke-opacity="0.35" stroke-width="1"/>
+
+  <circle cx="816" cy="78" r="3" fill="#38BDF8" filter="url(#glow)" class="node node2"/>
+  <circle cx="882" cy="63" r="3" fill="#A78BFA" filter="url(#glow)" class="node node3"/>
+  <circle cx="952" cy="84" r="3" fill="#60A5FA" filter="url(#glow)" class="node node4"/>
+  <path d="M816 78 L882 63 L952 84" stroke="#8B5CF6" stroke-opacity="0.35" stroke-width="1"/>
+
+  <!-- Top positioning statement -->
+  <text x="600" y="85" text-anchor="middle" class="mono label" fill="#CBD5E1">
+    AI ENGINEERING · FULLSTACK PRODUCTS · AUTOMATION SYSTEMS
+  </text>
+
+  <!-- Main rotating manifesto -->
+  <g filter="url(#titleGlow)">
+    <text x="600" y="132" text-anchor="middle" class="mono main line" fill="url(#text)">
+      AI-powered apps and fullstack products.
+    </text>
+
+    <text x="600" y="132" text-anchor="middle" class="mono main line line2" fill="url(#text)">
+      Engineering ideas into living software.
+    </text>
+
+    <text x="600" y="132" text-anchor="middle" class="mono main line line3" fill="url(#text)">
+      Building systems that think, automate and evolve.
+    </text>
+  </g>
+
+  <!-- Support phrase -->
+  <text x="600" y="164" text-anchor="middle" class="mono support" fill="#94A3B8">
+    Turning complex ideas into elegant, intelligent and scalable software.
+  </text>
+
+  <!-- Elegant separator -->
+  <rect x="275" y="184" width="650" height="2.2" rx="1.1" fill="url(#mutedLine)" opacity="0.95"/>
+
+  <!-- Mission pills -->
+  <g>
+    <rect x="90" y="202" width="220" height="28" rx="14" fill="#0B1120" stroke="#1E293B"/>
+    <circle cx="112" cy="216" r="3.5" fill="#22D3EE" filter="url(#glow)" class="node"/>
+    <text x="132" y="220" class="mono pill" fill="#E2E8F0">AI ENGINEERING</text>
+  </g>
+
+  <g>
+    <rect x="348" y="202" width="220" height="28" rx="14" fill="#0B1120" stroke="#1E293B"/>
+    <circle cx="370" cy="216" r="3.5" fill="#8B5CF6" filter="url(#glow)" class="node node2"/>
+    <text x="390" y="220" class="mono pill" fill="#E2E8F0">FULLSTACK APPS</text>
+  </g>
+
+  <g>
+    <rect x="606" y="202" width="240" height="28" rx="14" fill="#0B1120" stroke="#1E293B"/>
+    <circle cx="628" cy="216" r="3.5" fill="#38BDF8" filter="url(#glow)" class="node node3"/>
+    <text x="648" y="220" class="mono pill" fill="#E2E8F0">AUTOMATION SYSTEMS</text>
+  </g>
+
+  <g>
+    <rect x="884" y="202" width="226" height="28" rx="14" fill="#0B1120" stroke="#1E293B"/>
+    <circle cx="906" cy="216" r="3.5" fill="#A78BFA" filter="url(#glow)" class="node node4"/>
+    <text x="926" y="220" class="mono pill" fill="#E2E8F0">CLOUD ARCHITECTURE</text>
+  </g>
+</svg>
