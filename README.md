@@ -18,14 +18,22 @@
 
 <br/>
 
+<div align="center">
+
+<img width="100%" src="./assets/connect-header.svg" alt="Connect Explore Build" />
+
+<br/>
+
 <a href="https://linkedin.com/in/matteobenfatto97">
-  <img src="https://img.shields.io/badge/CONNECT-LINKEDIN-0A66C2?style=for-the-badge&labelColor=0B1120&logo=linkedin&logoColor=white" />
+  <img width="31%" src="./assets/contact-linkedin.svg" alt="Connect on LinkedIn" />
 </a>
+&nbsp;
 <a href="https://github.com/matteobenfatto97">
-  <img src="https://img.shields.io/badge/EXPLORE-GITHUB-181717?style=for-the-badge&labelColor=0B1120&logo=github&logoColor=white" />
+  <img width="31%" src="./assets/contact-github.svg" alt="Explore GitHub" />
 </a>
+&nbsp;
 <a href="mailto:matteo.benfatto97@gmail.com">
-  <img src="https://img.shields.io/badge/CONTACT-EMAIL-EA4335?style=for-the-badge&labelColor=0B1120&logo=gmail&logoColor=white" />
+  <img width="31%" src="./assets/contact-email.svg" alt="Contact by Email" />
 </a>
 
 <br/><br/>
@@ -35,7 +43,6 @@
 </div>
 
 <br/>
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 </div>
