@@ -60,8 +60,6 @@
 
 </div>
 
----
-
 <div align="center">
 
 ## 🧬 Identity Matrix
@@ -150,7 +148,7 @@ Prepare software to evolve, integrate and grow.
 
 </div>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 ## 🧬 Identity
 
@@ -165,7 +163,7 @@ My work lives between **fullstack development**, **AI engineering** and **automa
 
 </div>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 ## 🧠 What I Build
 
@@ -195,7 +193,7 @@ Systems that connect services, process information, trigger actions and make rep
 </tr>
 </table>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 ## ⚙️ Tech Constellation
 
@@ -257,7 +255,7 @@ Systems that connect services, process information, trigger actions and make rep
 
 </div>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 ## 🌌 Stack Philosophy
 
@@ -294,7 +292,7 @@ GitHub Actions, Linux and cloud-ready workflows to ship faster and better.
 </tr>
 </table>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 ## 🚀 Project Galaxy
 
@@ -354,7 +352,7 @@ Modern web experiments focused on clean UI, scalable backend logic and real-worl
 </tr>
 </table>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 ## 📊 GitHub Signals
 
@@ -374,7 +372,7 @@ Modern web experiments focused on clean UI, scalable backend logic and real-worl
 <br/><br/>
 </div>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 ## 🧩 Engineering Philosophy
 
@@ -452,7 +450,7 @@ Remove friction, connect systems and let software do the heavy work.
 </tr>
 </table>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 ## 🤝 Connect With Me
 
@@ -472,7 +470,7 @@ I am always interested in projects where software meets intelligence, automation
 
 </div>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 <div align="center">
 
