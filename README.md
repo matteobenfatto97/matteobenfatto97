@@ -1,15 +1,15 @@
-
+<!-- HERO -->
 <div align="center">
 
 <img width="100%" src="./assets/github-banner-animated.svg" alt="Matteo Benfatto - Futuristic AI Banner" />
 
-</div>
+<br/><br/>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=6,11,20,24,30" />
 
 <br/><br/>
 
-<img width="100%" src="./assets/hero-signal.svg" alt="AI Engineering Signal - Matteo Benfatto" />
+<img width="100%" src="./assets/hero-core.svg" alt="Matteo Benfatto - AI Core Signal" />
 
 <br/><br/>
 
@@ -46,7 +46,7 @@
 <a href="https://github.com/matteobenfatto97">
   <img src="https://img.shields.io/badge/GitHub-matteobenfatto97-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-<a href="mailto:ingo.rafael97@gmail.com">
+<a href="mailto:matteo.benfatto97@gmail.com">
   <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
@@ -59,7 +59,6 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 </div>
-
 <div align="center">
 
 ## 🧬 Identity Matrix
