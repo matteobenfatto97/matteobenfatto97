@@ -31,36 +31,95 @@
 
 ---
 
+---
+
 <div align="center">
 
-### `BUILDING SOFTWARE THAT THINKS, AUTOMATES AND EVOLVES`
+## 🧬 Identity Matrix
+
+### `FULLSTACK SYSTEMS · AI ENGINEERING · AUTOMATION ARCHITECTURE`
 
 </div>
 
 ```ts
-const matteo = {
-  identity: "Fullstack Developer & AI Engineer",
+const matteo: DeveloperProfile = {
+  name: "Matteo Benfatto",
+  role: "Fullstack Developer & AI Engineer",
   location: "Italy",
-  mindset: "build fast, automate deeply, think systemically",
-  focus: [
-    "AI Engineering",
-    "Fullstack Web Apps",
-    "API Design",
-    "Automation Systems",
-    "Cloud-ready Architectures"
+
+  operatingMode: {
+    mindset: "build fast, automate deeply, think systemically",
+    approach: "from idea to architecture, from architecture to living software",
+    standard: "clean code, useful products, intelligent workflows"
+  },
+
+  coreFocus: [
+    "AI-powered applications",
+    "Fullstack product development",
+    "API-first architectures",
+    "Automation systems",
+    "Cloud-ready software"
   ],
-  stack: {
+
+  techStack: {
     languages: ["Python", "TypeScript", "JavaScript"],
-    frontend: ["React", "Tailwind CSS"],
-    backend: ["FastAPI", "Node.js"],
-    data: ["PostgreSQL", "Redis"],
-    devops: ["Docker", "GitHub Actions"],
+    frontend: ["React", "Next.js", "Tailwind CSS"],
+    backend: ["FastAPI", "Node.js", "REST APIs"],
+    data: ["PostgreSQL", "Redis", "MongoDB"],
+    devOps: ["Docker", "GitHub Actions", "Linux"],
     ai: ["LLMs", "AI Agents", "Automation Pipelines"]
   },
-  mission: "turn complex ideas into elegant, intelligent software",
+
+  currentMission:
+    "turn complex ideas into elegant, intelligent and scalable software",
+
   signature: "a point in the Leo constellation"
 };
 ```
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+### 🧠 Think
+
+Analyze problems as systems, not isolated tasks.
+
+</td>
+<td align="center" width="25%">
+
+### ⚙️ Build
+
+Create fullstack products with solid logic and clean interfaces.
+
+</td>
+<td align="center" width="25%">
+
+### 🤖 Automate
+
+Design workflows that remove friction and save time.
+
+</td>
+<td align="center" width="25%">
+
+### 🚀 Scale
+
+Prepare software to evolve, integrate and grow.
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<div align="center">
+
+> I build software that does not just run.  
+> I build software that understands, connects and evolves.
+
+</div>
 
 ---
 
