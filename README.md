@@ -108,6 +108,7 @@ Systems that connect services, process information, trigger actions and make rep
 </table>
 
 ---
+
 ## ⚙️ Tech Constellation
 
 <div align="center">
@@ -167,7 +168,7 @@ Systems that connect services, process information, trigger actions and make rep
 <img src="https://img.shields.io/badge/AI%20Agents-Automation-8A2BE2?style=for-the-badge&logo=openai&logoColor=white" />
 
 </div>
----
+
 ---
 
 ## 🌌 Stack Philosophy
@@ -204,6 +205,7 @@ GitHub Actions, Linux and cloud-ready workflows to ship faster and better.
 </td>
 </tr>
 </table>
+
 ---
 
 ## 🚀 Project Galaxy
