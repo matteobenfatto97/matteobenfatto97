@@ -29,10 +29,13 @@
 <a href="mailto:matteo.benfatto97@gmail.com">
   <img width="31%" src="./assets/contact-email.svg" alt="Contact by Email" />
 </a>
+<br/>
 
-<br/><br/>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=matteobenfatto97&style=flat-square&color=8A2BE2&labelColor=050816&label=PROFILE%20SIGNAL" />
+</p>
 
-<br/><br/>  <div align="center">  <img width="54%" src="./assets/profile-views-core.svg" alt="Profile Views Core" />  </div>  <br/>
+<br/>
 <div align="center">
 
 <img src="https://komarev.com/ghpvc/?username=matteobenfatto97&style=for-the-badge&color=8A2BE2&labelColor=0B1120&label=SIGNAL+VIEWS" />
