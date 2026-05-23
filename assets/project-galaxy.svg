@@ -1,0 +1,311 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="42%" stop-color="#8B5CF6"/>
+      <stop offset="76%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="250" y1="0" x2="950" y2="0">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="48%" stop-color="#DDD6FE"/>
+      <stop offset="100%" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="80" y1="0" x2="1120" y2="0">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#38BDF8" stop-opacity="0.68"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.95"/>
+      <stop offset="85%" stop-color="#38BDF8" stop-opacity="0.68"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="coreGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 380) rotate(90) scale(290 560)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.20"/>
+      <stop offset="0.55" stop-color="#2563EB" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.1" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono {
+        font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", Consolas, monospace;
+      }
+
+      .eyebrow {
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 4px;
+      }
+
+      .title {
+        font-size: 34px;
+        font-weight: 900;
+        letter-spacing: 2px;
+      }
+
+      .subtitle {
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 2px;
+      }
+
+      .quote {
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+      }
+
+      .cardNumber {
+        font-size: 13px;
+        font-weight: 900;
+        letter-spacing: 3px;
+      }
+
+      .cardTitle {
+        font-size: 21px;
+        font-weight: 900;
+        letter-spacing: 1px;
+      }
+
+      .body {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.35px;
+      }
+
+      .tag {
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+      }
+
+      .footerLine {
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 3px;
+      }
+
+      .pulse {
+        animation: pulse 3s ease-in-out infinite;
+      }
+
+      .pulse2 {
+        animation: pulse 3s ease-in-out infinite;
+        animation-delay: 1s;
+      }
+
+      .pulse3 {
+        animation: pulse 3s ease-in-out infinite;
+        animation-delay: 2s;
+      }
+
+      .dash {
+        stroke-dasharray: 8 14;
+        animation: dash 16s linear infinite;
+      }
+
+      .dashSlow {
+        stroke-dasharray: 6 13;
+        animation: dashSlow 19s linear infinite;
+      }
+
+      .halo {
+        animation: haloBreath 5s ease-in-out infinite;
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: .35; }
+        50% { opacity: 1; }
+      }
+
+      @keyframes dash {
+        from { stroke-dashoffset: 160; }
+        to { stroke-dashoffset: 0; }
+      }
+
+      @keyframes dashSlow {
+        from { stroke-dashoffset: 0; }
+        to { stroke-dashoffset: 160; }
+      }
+
+      @keyframes haloBreath {
+        0%, 100% { opacity: .32; transform: scale(.986); }
+        50% { opacity: .65; transform: scale(1); }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="760" fill="transparent"/>
+
+  <!-- Main shell -->
+  <rect x="24" y="24" width="1152" height="712" rx="30" fill="#050816" opacity="0.98"/>
+  <rect x="25" y="25" width="1150" height="710" rx="29" stroke="url(#frame)" stroke-width="1.5" opacity="0.82"/>
+
+  <!-- Atmosphere -->
+  <ellipse cx="600" cy="380" rx="500" ry="300" fill="url(#coreGlow)" class="halo"/>
+  <path d="M82 126 C238 62 386 84 526 132 C687 188 846 144 1020 90 C1068 76 1104 74 1138 88" stroke="#60A5FA" stroke-opacity="0.25" stroke-width="1.4" class="dash"/>
+  <path d="M78 640 C240 586 394 620 550 668 C716 716 908 690 1112 596" stroke="#8B5CF6" stroke-opacity="0.25" stroke-width="1.2" class="dashSlow"/>
+
+  <!-- Header -->
+  <text x="72" y="60" class="mono eyebrow" fill="#94A3B8">MATTEO BENFATTO // PROJECT GALAXY</text>
+  <text x="1128" y="60" text-anchor="end" class="mono eyebrow pulse" fill="#A78BFA">SELECTED BUILD SIGNALS</text>
+
+  <path d="M72 82 H270" stroke="url(#lineGrad)" stroke-width="2" opacity="0.75"/>
+  <path d="M930 82 H1128" stroke="url(#lineGrad)" stroke-width="2" opacity="0.75"/>
+
+  <circle cx="302" cy="82" r="4" fill="#38BDF8" filter="url(#glow)" class="pulse"/>
+  <circle cx="600" cy="82" r="4" fill="#8B5CF6" filter="url(#glow)" class="pulse2"/>
+  <circle cx="898" cy="82" r="4" fill="#60A5FA" filter="url(#glow)" class="pulse3"/>
+
+  <text x="600" y="114" text-anchor="middle" class="mono title" fill="url(#textGrad)" filter="url(#softGlow)">
+    PROJECT GALAXY
+  </text>
+
+  <text x="600" y="140" text-anchor="middle" class="mono subtitle" fill="#94A3B8">
+    PRODUCTS · SYSTEMS · AUTOMATION LABS · FULLSTACK EXPERIMENTS
+  </text>
+
+  <!-- Quote -->
+  <text x="600" y="178" text-anchor="middle" class="mono quote" fill="#CBD5E1">
+    Each project is a star.
+  </text>
+  <text x="600" y="202" text-anchor="middle" class="mono quote" fill="#CBD5E1">
+    The goal is not to fill the sky.
+  </text>
+  <text x="600" y="226" text-anchor="middle" class="mono quote" fill="#CBD5E1">
+    The goal is to make it recognizable.
+  </text>
+
+  <!-- Mid constellation line -->
+  <path d="M250 248 C365 214 470 216 600 244 C760 278 888 268 1016 226" stroke="url(#lineGrad)" stroke-width="1.2" opacity="0.45" class="dash"/>
+  <circle cx="320" cy="232" r="3.5" fill="#38BDF8" filter="url(#glow)" class="pulse"/>
+  <circle cx="594" cy="242" r="3.5" fill="#8B5CF6" filter="url(#glow)" class="pulse2"/>
+  <circle cx="930" cy="236" r="3.5" fill="#60A5FA" filter="url(#glow)" class="pulse3"/>
+
+  <!-- Card 01 -->
+  <rect x="72" y="274" width="500" height="180" rx="24" fill="#0B1120" opacity="0.88"/>
+  <rect x="72.8" y="274.8" width="498.4" height="178.4" rx="23.2" stroke="#38BDF8" stroke-opacity="0.62"/>
+  <text x="102" y="310" class="mono cardNumber" fill="#38BDF8">01</text>
+  <text x="150" y="312" class="mono cardTitle" fill="#F8FAFC">AI AUTOMATIC REMINDER</text>
+  <text x="102" y="346" class="mono body" fill="#CBD5E1">An AI-powered reminder system built to understand</text>
+  <text x="102" y="368" class="mono body" fill="#CBD5E1">natural language, manage intelligent scheduling</text>
+  <text x="102" y="390" class="mono body" fill="#CBD5E1">and automate productivity flows.</text>
+
+  <rect x="102" y="414" width="78" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="141" y="429" text-anchor="middle" class="mono tag" fill="#E2E8F0">AI AGENTS</text>
+
+  <rect x="188" y="414" width="86" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="231" y="429" text-anchor="middle" class="mono tag" fill="#E2E8F0">AUTOMATION</text>
+
+  <rect x="282" y="414" width="62" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="313" y="429" text-anchor="middle" class="mono tag" fill="#E2E8F0">PYTHON</text>
+
+  <rect x="352" y="414" width="70" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="387" y="429" text-anchor="middle" class="mono tag" fill="#E2E8F0">FASTAPI</text>
+
+  <rect x="430" y="414" width="92" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="476" y="429" text-anchor="middle" class="mono tag" fill="#E2E8F0">SCHEDULING</text>
+
+  <circle cx="532" cy="308" r="4" fill="#38BDF8" filter="url(#glow)" class="pulse"/>
+
+  <!-- Card 02 -->
+  <rect x="628" y="274" width="500" height="180" rx="24" fill="#0B1120" opacity="0.88"/>
+  <rect x="628.8" y="274.8" width="498.4" height="178.4" rx="23.2" stroke="#8B5CF6" stroke-opacity="0.62"/>
+  <text x="658" y="310" class="mono cardNumber" fill="#A78BFA">02</text>
+  <text x="706" y="312" class="mono cardTitle" fill="#F8FAFC">DENTAL STUDIO WEB APP</text>
+  <text x="658" y="346" class="mono body" fill="#CBD5E1">A fullstack web application for managing appointments,</text>
+  <text x="658" y="368" class="mono body" fill="#CBD5E1">services, doctors and admin workflows for</text>
+  <text x="658" y="390" class="mono body" fill="#CBD5E1">a local dental studio.</text>
+
+  <rect x="658" y="414" width="62" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="689" y="429" text-anchor="middle" class="mono tag" fill="#E2E8F0">REACT</text>
+
+  <rect x="728" y="414" width="98" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="777" y="429" text-anchor="middle" class="mono tag" fill="#E2E8F0">TYPESCRIPT</text>
+
+  <rect x="834" y="414" width="108" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="888" y="429" text-anchor="middle" class="mono tag" fill="#E2E8F0">TAILWIND CSS</text>
+
+  <rect x="950" y="414" width="88" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="994" y="429" text-anchor="middle" class="mono tag" fill="#E2E8F0">DASHBOARD</text>
+
+  <rect x="1046" y="414" width="70" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="1081" y="429" text-anchor="middle" class="mono tag" fill="#E2E8F0">NOTIFY</text>
+
+  <circle cx="1088" cy="308" r="4" fill="#8B5CF6" filter="url(#glow)" class="pulse2"/>
+
+  <!-- Card 03 -->
+  <rect x="72" y="486" width="500" height="180" rx="24" fill="#0B1120" opacity="0.88"/>
+  <rect x="72.8" y="486.8" width="498.4" height="178.4" rx="23.2" stroke="#8B5CF6" stroke-opacity="0.62"/>
+  <text x="102" y="522" class="mono cardNumber" fill="#A78BFA">03</text>
+  <text x="150" y="524" class="mono cardTitle" fill="#F8FAFC">AUTOMATION LAB</text>
+  <text x="102" y="558" class="mono body" fill="#CBD5E1">A collection of tools, bots and scripts designed to</text>
+  <text x="102" y="580" class="mono body" fill="#CBD5E1">connect APIs, reduce manual work and optimize</text>
+  <text x="102" y="602" class="mono body" fill="#CBD5E1">digital workflows.</text>
+
+  <rect x="102" y="626" width="52" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="128" y="641" text-anchor="middle" class="mono tag" fill="#E2E8F0">APIS</text>
+
+  <rect x="162" y="626" width="62" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="193" y="641" text-anchor="middle" class="mono tag" fill="#E2E8F0">PYTHON</text>
+
+  <rect x="232" y="626" width="84" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="274" y="641" text-anchor="middle" class="mono tag" fill="#E2E8F0">WEBHOOKS</text>
+
+  <rect x="324" y="626" width="102" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="375" y="641" text-anchor="middle" class="mono tag" fill="#E2E8F0">INTEGRATIONS</text>
+
+  <rect x="434" y="626" width="92" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="480" y="641" text-anchor="middle" class="mono tag" fill="#E2E8F0">PRODUCTIVITY</text>
+
+  <circle cx="532" cy="520" r="4" fill="#8B5CF6" filter="url(#glow)" class="pulse3"/>
+
+  <!-- Card 04 -->
+  <rect x="628" y="486" width="500" height="180" rx="24" fill="#0B1120" opacity="0.88"/>
+  <rect x="628.8" y="486.8" width="498.4" height="178.4" rx="23.2" stroke="#38BDF8" stroke-opacity="0.62"/>
+  <text x="658" y="522" class="mono cardNumber" fill="#38BDF8">04</text>
+  <text x="706" y="524" class="mono cardTitle" fill="#F8FAFC">FULLSTACK EXPERIMENTS</text>
+  <text x="658" y="558" class="mono body" fill="#CBD5E1">Modern web experiments focused on clean UI,</text>
+  <text x="658" y="580" class="mono body" fill="#CBD5E1">backend structure and real-world software</text>
+  <text x="658" y="602" class="mono body" fill="#CBD5E1">engineering patterns.</text>
+
+  <rect x="658" y="626" width="84" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="700" y="641" text-anchor="middle" class="mono tag" fill="#E2E8F0">FRONTEND</text>
+
+  <rect x="750" y="626" width="76" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="788" y="641" text-anchor="middle" class="mono tag" fill="#E2E8F0">BACKEND</text>
+
+  <rect x="834" y="626" width="98" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="883" y="641" text-anchor="middle" class="mono tag" fill="#E2E8F0">ARCHITECTURE</text>
+
+  <rect x="940" y="626" width="42" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="961" y="641" text-anchor="middle" class="mono tag" fill="#E2E8F0">UX</text>
+
+  <rect x="990" y="626" width="94" height="24" rx="12" fill="#111827" stroke="#1E293B"/>
+  <text x="1037" y="641" text-anchor="middle" class="mono tag" fill="#E2E8F0">CLOUD-READY</text>
+
+  <circle cx="1088" cy="520" r="4" fill="#38BDF8" filter="url(#glow)" class="pulse"/>
+
+  <!-- Footer -->
+  <rect x="240" y="698" width="720" height="2.2" rx="1.1" fill="url(#lineGrad)" opacity="0.92"/>
+  <text x="600" y="721" text-anchor="middle" class="mono footerLine" fill="#64748B">
+    SYSTEMS · PRODUCTS · AUTOMATION · INTELLIGENT SOFTWARE
+  </text>
+</svg>
