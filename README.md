@@ -9,7 +9,7 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=800&color=8A2BE2&center=true&vCenter=true&width=950&lines=AI-powered+apps%2C+automation+and+fullstack+products.;Engineering+ideas+into+living+software.;Building+systems+that+think%2C+automate+and+evolve.;A+point+in+the+Leo+constellation." />
+<img width="100%" src="./assets/hero-signal.svg" alt="AI Engineering Signal - Matteo Benfatto" />
 
 <br/><br/>
 
