@@ -41,7 +41,7 @@
 </div>
 <div align="center">
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 <div align="center">
 
@@ -78,8 +78,6 @@ const matteo: DeveloperProfile = {
 
   mission:
     "turn complex ideas into elegant, intelligent and scalable software",
-
-  signature: "a point in the Leo constellation"
 };
 ```
 
@@ -128,7 +126,7 @@ Cloud-ready logic, clean structure and resilient systems.
 
 </div>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 ## 🧠 Build System
 
@@ -168,7 +166,7 @@ I create systems that connect services, process data, trigger actions and make r
 
 </div>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 ## ⚙️ Tech Arsenal
 
@@ -209,7 +207,7 @@ I create systems that connect services, process data, trigger actions and make r
 
 </div>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 ## 🌌 Stack Philosophy
 
@@ -246,7 +244,7 @@ GitHub Actions, Linux and cloud workflows to ship faster and better.
 </tr>
 </table>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 ## 🚀 Project Galaxy
 
@@ -306,7 +304,7 @@ Modern web experiments focused on clean UI, backend structure and real-world sof
 </tr>
 </table>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 ## 📊 GitHub Signals
 
@@ -325,7 +323,7 @@ Modern web experiments focused on clean UI, backend structure and real-world sof
 
 </div>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 ## 🧩 Engineering Doctrine
 
@@ -342,7 +340,7 @@ I like software that is not just technically correct, but useful, elegant and al
 Good engineering means connecting logic, design and purpose:  
 a clean interface, a solid architecture, an intelligent workflow and a real problem solved.
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 ## 🧪 Current Orbit
 
@@ -366,7 +364,7 @@ obsessed_with:
   - meaningful products
 ```
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 ## 🛰️ Operating Mode
 
@@ -403,7 +401,7 @@ Remove friction, connect systems and let software do the heavy work.
 </tr>
 </table>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 <div align="center">
 
@@ -415,7 +413,7 @@ I am always interested in projects where software meets intelligence, automation
 
 > Building intelligent systems.  
 > Engineering ideas into living software.  
-> A point in the Leo constellation.
+
 
 <br/>
 
@@ -423,9 +421,3 @@ I am always interested in projects where software meets intelligence, automation
 
 </div>
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&section=footer&color=gradient&customColorList=6,11,20,24,30&animation=twinkling" />
-
-</div>
