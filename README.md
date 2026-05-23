@@ -38,7 +38,12 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=matteobenfatto97&style=for-the-badge&color=8A2BE2&labelColor=0B1120&label=PROFILE+VIEWS" />
+<br/><br/>  <div align="center">  <img width="54%" src="./assets/profile-views-core.svg" alt="Profile Views Core" />  </div>  <br/>
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=matteobenfatto97&style=for-the-badge&color=8A2BE2&labelColor=0B1120&label=SIGNAL+VIEWS" />
+
+</div>
 
 </div>
 
