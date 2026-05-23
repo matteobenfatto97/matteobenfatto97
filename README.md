@@ -79,12 +79,16 @@ const matteo: DeveloperProfile = {
 ```
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 <div align="center">
-
+<div align="center">
+  <img width="100%" src="./assets/section-system-architecture.svg" alt="Identity Core" />
+</div>
 <img width="100%" src="./assets/system-architecture.svg" alt="Matteo Benfatto - System Architecture" />
 
 </div>
 
-## ✨ Tech Constellation
+<div align="center">
+  <img width="100%" src="./assets/section-tech-costellation.svg" alt="Identity Core" />
+</div>
 
 <div align="center">
 
@@ -126,7 +130,9 @@ const matteo: DeveloperProfile = {
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 
-## 🚀 Project Galaxy
+<div align="center">
+  <img width="100%" src="./assets/section-project-galaxy.svg" alt="Identity Core" />
+</div>
 
 <div align="center">
 
@@ -136,7 +142,9 @@ const matteo: DeveloperProfile = {
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
-## 📊 GitHub Signals
+<div align="center">
+  <img width="100%" src="./assets/section-github-signals.svg" alt="Identity Core" />
+</div>
 
 <div align="center">
 
@@ -155,7 +163,9 @@ const matteo: DeveloperProfile = {
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
-## 🧩 Engineering Doctrine
+<div align="center">
+  <img width="100%" src="./assets/section-engineering-doctrine.svg" alt="Identity Core" />
+</div>
 
 ```txt
 > Think in systems.
@@ -172,7 +182,9 @@ a clean interface, a solid architecture, an intelligent workflow and a real prob
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
-## 🧪 Current Orbit
+<div align="center">
+  <img width="100%" src="./assets/section-current-orbit.svg" alt="Identity Core" />
+</div>
 
 ```yaml
 learning:
@@ -195,57 +207,6 @@ obsessed_with:
 ```
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
-
-## 🛰️ Operating Mode
-
-<table>
-<tr>
-<td width="25%" align="center">
-
-### Analyze
-
-Understand the real problem before touching the keyboard.
-
-</td>
-<td width="25%" align="center">
-
-### Design
-
-Create clean structures, usable interfaces and maintainable flows.
-
-</td>
-<td width="25%" align="center">
-
-### Build
-
-Move fast, ship concretely and keep the architecture alive.
-
-</td>
-<td width="25%" align="center">
-
-### Automate
-
-Remove friction, connect systems and let software do the heavy work.
-
-</td>
-</tr>
-</table>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
-
-<div align="center">
-
-## 🌠 Final Transmission
-
-I am always interested in projects where software meets intelligence, automation and real-world impact.
-
-<br/>
-
-> Building intelligent systems.  
-> Engineering ideas into living software.  
-
-
-<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=180&section=footer&color=gradient&customColorList=6,11,20,24,30&animation=twinkling" />
 
