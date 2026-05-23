@@ -13,31 +13,6 @@
 
 <br/><br/>
 
-<table>
-<tr>
-<td align="center">
-
-`AI Engineering`
-
-</td>
-<td align="center">
-
-`Fullstack Development`
-
-</td>
-<td align="center">
-
-`Automation Systems`
-
-</td>
-<td align="center">
-
-`Cloud-ready Architecture`
-
-</td>
-</tr>
-</table>
-
 <br/>
 
 <a href="https://linkedin.com/in/matteobenfatto97">
