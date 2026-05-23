@@ -108,12 +108,42 @@ Systems that connect services, process information, trigger actions and make rep
 </table>
 
 ---
-
 ## ⚙️ Tech Constellation
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,ts,js,react,tailwind,fastapi,nodejs,docker,redis,postgres,git,github,linux,vscode&perline=7" />
+> My stack is not just a list of tools.  
+> It is the constellation I use to build intelligent, scalable and beautiful software.
+
+<br/>
+
+### 🧠 Core Engineering
+
+<img src="https://skillicons.dev/icons?i=python,ts,js,react,nextjs,vite,tailwind,html,css&perline=9" />
+
+<br/><br/>
+
+### ⚡ Backend, APIs & Automation
+
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,docker,redis,postgres,mysql,mongodb,sqlite&perline=9" />
+
+<br/><br/>
+
+### 🤖 AI, Data & Intelligent Systems
+
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,anaconda,pycharm&perline=6" />
+
+<br/><br/>
+
+### ☁️ Cloud, DevOps & Workflow
+
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,linux,ubuntu,bash,powershell,vercel,nginx&perline=9" />
+
+<br/><br/>
+
+### 🛠️ Tools I Use to Build Faster
+
+<img src="https://skillicons.dev/icons?i=vscode,postman,notion,figma,npm,pnpm,yarn&perline=7" />
 
 </div>
 
@@ -128,8 +158,52 @@ Systems that connect services, process information, trigger actions and make rep
 <img src="https://img.shields.io/badge/Docker-Deployable-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/Redis-Realtime-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
 
-</div>
+<br/><br/>
 
+<img src="https://img.shields.io/badge/PostgreSQL-Structured%20Data-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-Control-FCC624?style=for-the-badge&logo=linux&logoColor=111111" />
+<img src="https://img.shields.io/badge/Postman-API%20Testing-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+<img src="https://img.shields.io/badge/AI%20Agents-Automation-8A2BE2?style=for-the-badge&logo=openai&logoColor=white" />
+
+</div>
+---
+---
+
+## 🌌 Stack Philosophy
+
+<table>
+<tr>
+<td width="25%" align="center">
+
+### 🧠 Intelligence
+
+Python, AI agents and automation logic to make software understand, decide and act.
+
+</td>
+<td width="25%" align="center">
+
+### 🎨 Experience
+
+React, TypeScript and Tailwind to create clean, fast and elegant interfaces.
+
+</td>
+<td width="25%" align="center">
+
+### ⚙️ Architecture
+
+FastAPI, databases, Redis and Docker to build reliable systems.
+
+</td>
+<td width="25%" align="center">
+
+### 🚀 Delivery
+
+GitHub Actions, Linux and cloud-ready workflows to ship faster and better.
+
+</td>
+</tr>
+</table>
 ---
 
 ## 🚀 Project Galaxy
