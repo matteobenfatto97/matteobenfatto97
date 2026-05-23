@@ -1,0 +1,91 @@
+<svg width="420" height="104" viewBox="0 0 420 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="420" y2="104">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="55%" stop-color="#10172A"/>
+      <stop offset="100%" stop-color="#1E1B4B"/>
+    </linearGradient>
+
+    <linearGradient id="stroke" x1="0" y1="0" x2="420" y2="0">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="45%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <linearGradient id="pill" x1="0" y1="0" x2="60" y2="40">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono {
+        font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", Consolas, monospace;
+      }
+
+      .label {
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 3px;
+      }
+
+      .main {
+        font-size: 22px;
+        font-weight: 900;
+        letter-spacing: 2px;
+      }
+
+      .sub {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 2px;
+      }
+
+      .count {
+        font-size: 20px;
+        font-weight: 900;
+        letter-spacing: 1px;
+      }
+
+      .pulse {
+        animation: pulse 3s ease-in-out infinite;
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: .45; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- card -->
+  <rect x="4" y="4" width="412" height="96" rx="22" fill="url(#bg)" opacity="0.98"/>
+  <rect x="4.8" y="4.8" width="410.4" height="94.4" rx="21.2" stroke="url(#stroke)" stroke-width="1.6" opacity="0.9"/>
+
+  <!-- left icon -->
+  <circle cx="58" cy="52" r="24" fill="#0B1120" stroke="#334155"/>
+  <path d="M42 52C46.5 45.5 52.5 42.5 58 42.5C63.5 42.5 69.5 45.5 74 52C69.5 58.5 63.5 61.5 58 61.5C52.5 61.5 46.5 58.5 42 52Z" stroke="#67E8F9" stroke-width="2.2" stroke-linejoin="round"/>
+  <circle cx="58" cy="52" r="5.2" fill="#8B5CF6" filter="url(#glow)" class="pulse"/>
+
+  <!-- text -->
+  <text x="96" y="33" class="mono label" fill="#93C5FD">MONITOR</text>
+  <text x="96" y="61" class="mono main" fill="#F8FAFC">PROFILE SIGNAL</text>
+  <text x="96" y="80" class="mono sub" fill="#94A3B8">VISITOR TELEMETRY · SYSTEM PRESENCE</text>
+
+  <!-- number pill -->
+  <rect x="334" y="33" width="56" height="38" rx="10" fill="url(#pill)" filter="url(#glow)"/>
+  <text x="362" y="58" text-anchor="middle" class="mono count" fill="#FFFFFF">048</text>
+
+  <!-- top signal dot -->
+  <circle cx="380" cy="28" r="3.5" fill="#8B5CF6" filter="url(#glow)" class="pulse"/>
+
+  <!-- right accent line -->
+  <path d="M332 79 H390" stroke="#8B5CF6" stroke-width="2" opacity="0.55"/>
+</svg>
