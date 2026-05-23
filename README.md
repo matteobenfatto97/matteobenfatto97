@@ -1,9 +1,9 @@
-<!-- HERO -->
+
 <div align="center">
 
-<img width="100%" src="./assets/banner.svg" alt="Matteo Benfatto - Fullstack Developer, AI Engineer, Automation Builder" />
+<img width="100%" src="./assets/github-banner-animated.svg" alt="Matteo Benfatto - Futuristic AI Banner" />
 
-<br/>
+</div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=6,11,20,24,30" />
 
