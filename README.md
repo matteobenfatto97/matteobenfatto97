@@ -126,59 +126,9 @@ const matteo: DeveloperProfile = {
 
 <div align="center">
 
-> Each project is a star.  
-> The goal is not to fill the sky.  
-> The goal is to make it recognizable.
+<img width="100%" src="./assets/project-galaxy.svg" alt="Matteo Benfatto - Project Galaxy" />
 
 </div>
-
-<table>
-<tr>
-<td width="50%">
-
-### 🧠 AI Automatic Reminder
-
-An AI-powered reminder system designed to understand natural language, manage intelligent scheduling and automate productivity flows.
-
-**Core ideas**  
-`AI Agents` · `Automation` · `Python` · `FastAPI` · `Scheduling`
-
-</td>
-<td width="50%">
-
-### 🦷 Dental Studio Web App
-
-A fullstack web application for managing appointments, services, doctors and admin workflows for a local dental studio.
-
-**Core ideas**  
-`React` · `TypeScript` · `Tailwind CSS` · `Dashboard` · `Notifications`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### ⚡ Automation Lab
-
-A collection of tools, bots and scripts designed to connect APIs, reduce manual work and optimize digital workflows.
-
-**Core ideas**  
-`APIs` · `Python` · `Webhooks` · `Integrations` · `Productivity`
-
-</td>
-<td width="50%">
-
-### 🌐 Fullstack Experiments
-
-Modern web experiments focused on clean UI, backend structure and real-world software engineering patterns.
-
-**Core ideas**  
-`Frontend` · `Backend` · `Architecture` · `UX` · `Cloud-ready`
-
-</td>
-</tr>
-</table>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
