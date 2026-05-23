@@ -18,12 +18,6 @@
 
 <br/>
 
-<div align="center">
-
-<img width="100%" src="./assets/connect-header.svg" alt="Connect Explore Build" />
-
-<br/>
-
 <a href="https://linkedin.com/in/matteobenfatto97">
   <img width="31%" src="./assets/contact-linkedin.svg" alt="Connect on LinkedIn" />
 </a>
