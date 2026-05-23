@@ -1,0 +1,143 @@
+<svg width="1200" height="180" viewBox="0 0 1200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="neon" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="45%" stop-color="#8A2BE2"/>
+      <stop offset="75%" stop-color="#B026FF"/>
+      <stop offset="100%" stop-color="#00D4FF"/>
+    </linearGradient>
+
+    <linearGradient id="textGradient" x1="250" y1="0" x2="950" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono {
+        font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", monospace;
+      }
+
+      .title {
+        font-size: 34px;
+        font-weight: 800;
+        letter-spacing: 1px;
+      }
+
+      .sub {
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 4px;
+      }
+
+      .micro {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 3px;
+      }
+
+      .line {
+        opacity: 0;
+        animation: rotateText 12s infinite;
+      }
+
+      .line2 { animation-delay: 3s; }
+      .line3 { animation-delay: 6s; }
+      .line4 { animation-delay: 9s; }
+
+      @keyframes rotateText {
+        0% { opacity: 0; transform: translateY(10px); }
+        7% { opacity: 1; transform: translateY(0); }
+        21% { opacity: 1; transform: translateY(0); }
+        28% { opacity: 0; transform: translateY(-10px); }
+        100% { opacity: 0; transform: translateY(-10px); }
+      }
+
+      .pulse {
+        animation: pulse 2.4s infinite ease-in-out;
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: .35; }
+        50% { opacity: 1; }
+      }
+
+      .scan {
+        animation: scan 5s infinite linear;
+      }
+
+      @keyframes scan {
+        0% { transform: translateX(-300px); opacity: 0; }
+        10% { opacity: 1; }
+        70% { opacity: 1; }
+        100% { transform: translateX(1200px); opacity: 0; }
+      }
+
+      .dash {
+        stroke-dasharray: 8 12;
+        animation: dash 8s linear infinite;
+      }
+
+      @keyframes dash {
+        from { stroke-dashoffset: 160; }
+        to { stroke-dashoffset: 0; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="180" fill="transparent"/>
+
+  <rect x="55" y="22" width="1090" height="136" rx="22" fill="#050816" opacity="0.82"/>
+  <rect x="55.5" y="22.5" width="1089" height="135" rx="21.5" stroke="url(#neon)" opacity="0.65"/>
+
+  <path d="M90 55 H260" stroke="url(#neon)" stroke-width="2" opacity="0.55" class="dash"/>
+  <path d="M940 125 H1110" stroke="url(#neon)" stroke-width="2" opacity="0.55" class="dash"/>
+
+  <circle cx="95" cy="90" r="5" fill="#38BDF8" filter="url(#glow)" class="pulse"/>
+  <circle cx="1110" cy="90" r="5" fill="#8A2BE2" filter="url(#glow)" class="pulse"/>
+
+  <text x="600" y="56" text-anchor="middle" class="mono micro" fill="#94A3B8">
+    AI ENGINEERING · FULLSTACK SYSTEMS · AUTOMATION ARCHITECTURE
+  </text>
+
+  <g filter="url(#softGlow)">
+    <text x="600" y="104" text-anchor="middle" class="mono title line" fill="url(#textGradient)">
+      AI-powered apps, automation and fullstack products.
+    </text>
+
+    <text x="600" y="104" text-anchor="middle" class="mono title line line2" fill="url(#textGradient)">
+      Engineering ideas into living software.
+    </text>
+
+    <text x="600" y="104" text-anchor="middle" class="mono title line line3" fill="url(#textGradient)">
+      Building systems that think, automate and evolve.
+    </text>
+
+    <text x="600" y="104" text-anchor="middle" class="mono title line line4" fill="url(#textGradient)">
+      A point in the Leo constellation.
+    </text>
+  </g>
+
+  <text x="600" y="134" text-anchor="middle" class="mono sub" fill="#64748B">
+    SYSTEM ONLINE // INTELLIGENCE LAYER ACTIVE // SIGNAL VERIFIED
+  </text>
+
+  <rect x="250" y="148" width="700" height="2" rx="1" fill="url(#neon)" opacity="0.55"/>
+  <rect x="0" y="0" width="260" height="180" fill="url(#neon)" opacity="0.10" class="scan"/>
+</svg>
