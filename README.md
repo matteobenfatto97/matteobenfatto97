@@ -119,13 +119,12 @@ const matteo: DeveloperProfile = {
 
 <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,anaconda&perline=5" />
 
-<br/>
+<br/><br/>
 
-<sub>
-NumPy · pandas · Polars · Matplotlib · Seaborn · Plotly · Keras · torchvision · Albumentations · Ultralytics YOLO · MediaPipe · PCL · CARLA
-</sub>
+<img width="100%" src="./assets/extended-ai-vision-stack.svg" alt="Extended AI Vision Stack" />
 
 <br/><br/>
+
 
 <img width="100%" src="./assets/tech-cloud-devops.svg" alt="Cloud DevOps Workflow" />
 
