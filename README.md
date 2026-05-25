@@ -105,7 +105,7 @@ const matteo: DeveloperProfile = {
 
 <br/><br/>
 
-<img width="100%" src="./assets/tech-backend-automation.svg" alt="Backend and Infrastructure" />
+<img width="100%" src="./assets/tech-backend-automation.svg" alt="Backend APIs Automation" />
 
 <br/>
 
@@ -113,41 +113,17 @@ const matteo: DeveloperProfile = {
 
 <br/><br/>
 
-<img width="100%" src="./assets/tech-data-analytics.svg" alt="Data and Analytics" />
+<img width="100%" src="./assets/tech-ai-data.svg" alt="AI Data Intelligent Systems" />
 
 <br/>
 
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white" />
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white" />
-<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
-
-<br/><br/>
-
-<img width="100%" src="./assets/tech-ai-data.svg" alt="Machine Learning and Deep Learning" />
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,anaconda&perline=5" />
 
 <br/>
 
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/torchvision-8C1D18?style=for-the-badge&logo=pytorch&logoColor=white" />
-
-<br/><br/>
-
-<img width="100%" src="./assets/tech-computer-vision.svg" alt="Computer Vision and Simulation" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-<img src="https://img.shields.io/badge/Albumentations-FFB703?style=for-the-badge&logo=python&logoColor=black" />
-<img src="https://img.shields.io/badge/Ultralytics%20YOLO-111827?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/MediaPipe-0F9D58?style=for-the-badge&logo=google&logoColor=white" />
-<img src="https://img.shields.io/badge/PCL-0B132B?style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/CARLA-1F2937?style=for-the-badge&logoColor=white" />
+<sub>
+NumPy · pandas · Polars · Matplotlib · Seaborn · Plotly · Keras · torchvision · Albumentations · Ultralytics YOLO · MediaPipe · PCL · CARLA
+</sub>
 
 <br/><br/>
 
