@@ -42,11 +42,12 @@
 <div align="center">
   <img width="38%" src="./assets/contact-profile-signal.svg" alt="Profile Signal" />
 </div>
-<br/>
-</div>
 <div align="center">
-
+  <img width="38%" src="./assets/contact-profile-signal.svg" alt="Profile Signal" />
 </div>
+
+<br/>
+
 ```ts
 const matteo = {
   codename: "Leo Node",
@@ -60,9 +61,12 @@ const matteo = {
 
   systemMode: {
     mindset: "build fast, automate deeply, think systemically",
-    principle: "software should not only run — it should understand, connect and evolve",
-    method: "transform complexity into structure, structure into automation, automation into leverage",
-    standard: "premium interfaces, clean architectures, intelligent workflows"
+    principle:
+      "software should not only run — it should understand, connect and evolve",
+    method:
+      "transform complexity into structure, structure into automation, automation into leverage",
+    standard:
+      "premium interfaces, clean architectures, intelligent workflows"
   },
 
   buildDomains: {
@@ -126,15 +130,22 @@ const matteo = {
   },
 
   currentOrbit: {
-    learning: "AI engineering · machine learning · computer vision · architecture",
-    building: "intelligent products · automation systems · visual pipelines",
-    direction: "from fullstack software to perception-driven intelligent systems"
+    learning:
+      "AI engineering · machine learning · computer vision · architecture",
+    building:
+      "intelligent products · automation systems · visual pipelines",
+    direction:
+      "from fullstack software to perception-driven intelligent systems"
   },
 
   mission:
     "engineer ideas into living software with intelligence, automation and purpose"
 };
 ```
+
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 <div align="center">
 <div align="center">
