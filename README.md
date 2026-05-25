@@ -57,9 +57,8 @@ const matteo = {
 
   identity: {
     name: "Matteo Benfatto",
-    role: "Fullstack Developer · AI Engineer · Automation Builder",
+    role: "Fullstack Developer · ML/AI Engineer · Automation Builder",
     origin: "Italy",
-    signature: "a point in the Leo constellation"
   },
 
   systemMode: {
@@ -101,46 +100,6 @@ const matteo = {
       "productivity systems"
     ]
   },
-
-  constellation: {
-    core: ["Python", "TypeScript", "JavaScript"],
-    interface: ["React", "Next.js", "Vite", "Tailwind CSS"],
-    backend: ["FastAPI", "Node.js", "Express", "REST APIs"],
-    databases: ["PostgreSQL", "Redis", "MongoDB", "MySQL", "SQLite"],
-
-    data: ["NumPy", "pandas", "Polars", "Matplotlib", "Seaborn", "Plotly"],
-
-    intelligence: [
-      "scikit-learn",
-      "TensorFlow",
-      "Keras",
-      "PyTorch",
-      "torchvision",
-      "LLMs",
-      "AI Agents"
-    ],
-
-    vision: [
-      "OpenCV",
-      "Albumentations",
-      "Ultralytics YOLO",
-      "MediaPipe",
-      "PCL",
-      "CARLA"
-    ],
-
-    deployment: ["Docker", "GitHub Actions", "Linux", "Vercel", "Nginx"]
-  },
-
-  currentOrbit: {
-    learning:
-      "AI engineering · machine learning · computer vision · architecture",
-    building:
-      "intelligent products · automation systems · visual pipelines",
-    direction:
-      "from fullstack software to perception-driven intelligent systems"
-  },
-
   mission:
     "engineer ideas into living software with intelligence, automation and purpose"
 };
