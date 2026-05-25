@@ -92,41 +92,50 @@ const matteo: DeveloperProfile = {
 
 <div align="center">
 
-> My stack is not a random collection of tools.  
-> It is the constellation I use to build intelligent, scalable and elegant software.
+> My stack is not a random list of tools.  
+> It is the constellation I use to build intelligent, scalable and beautiful software.
 
 <br/>
 
-### 🧠 Core Engineering
+<img width="100%" src="./assets/tech-core-engineering.svg" alt="Core Engineering" />
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=python,ts,js,react,nextjs,vite,tailwind,html,css&perline=9" />
 
 <br/><br/>
 
-### ⚡ Backend, APIs & Automation
+<img width="100%" src="./assets/tech-backend-automation.svg" alt="Backend APIs Automation" />
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,docker,redis,postgres,mysql,mongodb,sqlite&perline=9" />
 
 <br/><br/>
 
-### 🤖 AI, Data & Intelligent Systems
+<img width="100%" src="./assets/tech-ai-data.svg" alt="AI Data Intelligent Systems" />
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,anaconda&perline=5" />
 
 <br/><br/>
 
-### ☁️ Cloud, DevOps & Workflow
+<img width="100%" src="./assets/tech-cloud-devops.svg" alt="Cloud DevOps Workflow" />
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=git,github,githubactions,linux,ubuntu,bash,powershell,vercel,nginx&perline=9" />
 
 <br/><br/>
 
-### 🛠️ Tools
+<img width="100%" src="./assets/tech-tools.svg" alt="Tools" />
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=vscode,pycharm,postman,notion,figma,npm,pnpm,yarn&perline=8" />
 
 </div>
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
 
