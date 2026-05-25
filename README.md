@@ -113,7 +113,7 @@ const matteo = {
 </div>
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 <div align="center">
-  <img width="100%" src="./assets/section-tech-constellation.svg" alt="Tech Constellation" />
+  <img width="100%" src="./assets/section-tech-costellation.svg" alt="Tech Constellation" />
 </div>
 
 <div align="center">
