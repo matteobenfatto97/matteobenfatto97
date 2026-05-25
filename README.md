@@ -42,9 +42,6 @@
 <div align="center">
   <img width="38%" src="./assets/contact-profile-signal.svg" alt="Profile Signal" />
 </div>
-<div align="center">
-  <img width="38%" src="./assets/contact-profile-signal.svg" alt="Profile Signal" />
-</div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 </div>
@@ -116,7 +113,7 @@ const matteo = {
 </div>
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 <div align="center">
-  <img width="100%" src="./assets/section-tech-costellation.svg" alt="Identity Core" />
+  <img width="100%" src="./assets/section-tech-constellation.svg" alt="Identity Core" />
 </div>
 
 <div align="center">
