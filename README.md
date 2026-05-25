@@ -45,9 +45,8 @@
 <div align="center">
   <img width="38%" src="./assets/contact-profile-signal.svg" alt="Profile Signal" />
 </div>
-
 <br/>
-
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 ```ts
 const matteo = {
   codename: "Leo Node",
@@ -144,8 +143,6 @@ const matteo = {
 ```
 
 <br/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 <div align="center">
 <div align="center">
