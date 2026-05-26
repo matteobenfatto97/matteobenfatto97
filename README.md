@@ -26,11 +26,11 @@
 
 <br/>
 
-<a href="https://linkedin.com/in/matteobenfatto97">
+<a href="https://linkedin.com/in/benfattomatteo">
   <img width="31.5%" src="./assets/contact-linkedin.svg" alt="Connect on LinkedIn" />
 </a>
 &nbsp;
-<a href="https://github.com/matteobenfatto97">
+<a href="https://github.com/benfattomatteo">
   <img width="31.5%" src="./assets/contact-github.svg" alt="Explore GitHub" />
 </a>
 &nbsp;
@@ -180,13 +180,30 @@ const matteo = {
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
+
+## Certifications
+<div align="center">
+
+<p align="left">
+  <a href="https://www.credly.com/badges/4e1a41ce-f000-4444-a3a5-6e4c1cc1e508/public_url">
+    <img src="assets/ibm-ai-fundamentals.png" alt="IBM Artificial Intelligence Fundamentals" width="115"/>
+  </a>
+</p>
+
+**IBM SkillsBuild — Artificial Intelligence Fundamentals**  
+Applied AI · Machine Vision · Intelligent Software Systems  
+[Verify credential](https://www.credly.com/badges/4e1a41ce-f000-4444-a3a5-6e4c1cc1e508/public_url)
+
+</div>
+
+
 <div align="center">
 
 <img width="100%" src="./assets/section-github-signals.svg" alt="GitHub Signals" />
 
 <br/>
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=matteobenfatto97&bg_color=050816&color=CBD5E1&line=8B5CF6&point=67E8F9&area=true&area_color=8B5CF6&hide_border=true&radius=16&custom_title=Development%20Activity%20Trace" />
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=benfattomatteo&bg_color=050816&color=CBD5E1&line=8B5CF6&point=67E8F9&area=true&area_color=8B5CF6&hide_border=true&radius=16&custom_title=Development%20Activity%20Trace" />
 
 <br/><br/>
 
