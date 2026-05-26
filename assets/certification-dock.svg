@@ -1,0 +1,189 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="45%" stop-color="#8B5CF6"/>
+      <stop offset="75%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="700" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="45%" stop-color="#DDD6FE"/>
+      <stop offset="100%" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <linearGradient id="buttonGrad" x1="0" y1="0" x2="220" y2="0">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="55%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#38BDF8" stop-opacity="0.68"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.95"/>
+      <stop offset="82%" stop-color="#38BDF8" stop-opacity="0.68"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="bgGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(760 160) rotate(180) scale(460 140)">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.20"/>
+      <stop offset="50%" stop-color="#2563EB" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono {
+        font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", Consolas, monospace;
+      }
+
+      .kicker {
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 3px;
+      }
+
+      .title {
+        font-size: 30px;
+        font-weight: 900;
+        letter-spacing: 0.8px;
+      }
+
+      .subtitle {
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 0.2px;
+      }
+
+      .micro {
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 2.4px;
+      }
+
+      .pill {
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 1.4px;
+      }
+
+      .cta {
+        font-size: 13px;
+        font-weight: 900;
+        letter-spacing: 1.8px;
+      }
+
+      .pulse {
+        animation: pulse 3s ease-in-out infinite;
+      }
+
+      .pulse2 {
+        animation: pulse 3s ease-in-out infinite;
+        animation-delay: 1s;
+      }
+
+      .pulse3 {
+        animation: pulse 3s ease-in-out infinite;
+        animation-delay: 2s;
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: .45; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" fill="transparent"/>
+
+  <!-- Main dock -->
+  <rect x="26" y="24" width="1148" height="272" rx="30" fill="#050816" opacity="0.98"/>
+  <rect x="27" y="25" width="1146" height="270" rx="29" stroke="url(#frame)" stroke-width="1.4" opacity="0.88"/>
+
+  <!-- Atmosphere -->
+  <ellipse cx="760" cy="160" rx="460" ry="140" fill="url(#bgGlow)"/>
+  <path d="M322 86 H1126" stroke="url(#lineGrad)" stroke-width="1.6" opacity="0.75"/>
+  <path d="M322 248 H1126" stroke="url(#lineGrad)" stroke-width="1.6" opacity="0.55"/>
+
+  <!-- Meta -->
+  <text x="56" y="52" class="mono kicker" fill="#94A3B8">CERTIFICATION SIGNAL // VERIFIED LEARNING ASSET</text>
+  <text x="1138" y="52" text-anchor="end" class="mono kicker" fill="#A78BFA">IBM SKILLSBUILD</text>
+
+  <circle cx="360" cy="72" r="4" fill="#38BDF8" filter="url(#glow)" class="pulse"/>
+  <circle cx="650" cy="72" r="4" fill="#8B5CF6" filter="url(#glow)" class="pulse2"/>
+  <circle cx="944" cy="72" r="4" fill="#67E8F9" filter="url(#glow)" class="pulse3"/>
+
+  <!-- Badge frame -->
+  <rect x="58" y="78" width="220" height="190" rx="24" fill="#0B1120"/>
+  <rect x="58.8" y="78.8" width="218.4" height="188.4" rx="23.2" stroke="#1E293B"/>
+  <rect x="70" y="90" width="196" height="166" rx="18" fill="#111827"/>
+  <rect x="70.8" y="90.8" width="194.4" height="164.4" rx="17.2" stroke="#334155" opacity="0.9"/>
+
+  <!-- Emboss corners -->
+  <path d="M82 104 H120" stroke="#67E8F9" stroke-opacity="0.55" stroke-width="2"/>
+  <path d="M82 104 V142" stroke="#67E8F9" stroke-opacity="0.55" stroke-width="2"/>
+  <path d="M214 104 H252" stroke="#8B5CF6" stroke-opacity="0.55" stroke-width="2"/>
+  <path d="M252 104 V142" stroke="#8B5CF6" stroke-opacity="0.55" stroke-width="2"/>
+  <path d="M82 242 H120" stroke="#38BDF8" stroke-opacity="0.38" stroke-width="2"/>
+  <path d="M82 204 V242" stroke="#38BDF8" stroke-opacity="0.38" stroke-width="2"/>
+  <path d="M214 242 H252" stroke="#A78BFA" stroke-opacity="0.38" stroke-width="2"/>
+  <path d="M252 204 V242" stroke="#A78BFA" stroke-opacity="0.38" stroke-width="2"/>
+
+  <!-- Your real PNG -->
+  <image href="./ibm-ai-fundamentals.png" x="82" y="102" width="172" height="142" preserveAspectRatio="xMidYMid meet"/>
+
+  <!-- Right content -->
+  <text x="322" y="106" class="mono kicker" fill="#7C8AA5">CREDENTIAL // AI FOUNDATIONS</text>
+
+  <text x="322" y="142" class="mono title" fill="url(#titleGrad)" filter="url(#softGlow)">
+    ARTIFICIAL INTELLIGENCE FUNDAMENTALS
+  </text>
+
+  <text x="322" y="174" class="mono subtitle" fill="#E2E8F0">
+    IBM SkillsBuild — foundational credential focused on AI, software intelligence
+  </text>
+
+  <text x="322" y="198" class="mono subtitle" fill="#CBD5E1">
+    and emerging machine vision concepts.
+  </text>
+
+  <!-- Pills -->
+  <rect x="322" y="218" width="86" height="28" rx="14" fill="#0B1120" stroke="#1E293B"/>
+  <text x="365" y="236" text-anchor="middle" class="mono pill" fill="#E2E8F0">AI</text>
+
+  <rect x="420" y="218" width="166" height="28" rx="14" fill="#0B1120" stroke="#1E293B"/>
+  <text x="503" y="236" text-anchor="middle" class="mono pill" fill="#E2E8F0">MACHINE VISION</text>
+
+  <rect x="598" y="218" width="212" height="28" rx="14" fill="#0B1120" stroke="#1E293B"/>
+  <text x="704" y="236" text-anchor="middle" class="mono pill" fill="#E2E8F0">INTELLIGENT SYSTEMS</text>
+
+  <rect x="822" y="218" width="126" height="28" rx="14" fill="#0B1120" stroke="#1E293B"/>
+  <text x="885" y="236" text-anchor="middle" class="mono pill" fill="#E2E8F0">FOUNDATIONS</text>
+
+  <!-- CTA -->
+  <rect x="934" y="96" width="188" height="44" rx="14" fill="url(#buttonGrad)" filter="url(#glow)"/>
+  <text x="1028" y="123" text-anchor="middle" class="mono cta" fill="#FFFFFF">VERIFY ↗</text>
+
+  <!-- Bottom metadata -->
+  <text x="322" y="272" class="mono micro" fill="#64748B">
+    VERIFIED LEARNING · DIGITAL CREDENTIAL · PROFESSIONAL DEVELOPMENT TRACK
+  </text>
+</svg>
