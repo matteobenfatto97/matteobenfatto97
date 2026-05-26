@@ -188,7 +188,7 @@ const matteo = {
 <br/>
 
 <a href="https://www.credly.com/badges/4e1a41ce-f000-4444-a3a5-6e4c1cc1e508/public_url">
-  <img width="100%" src="./assets/ibm-ai-fundamentals.png" alt="IBM SkillsBuild - Artificial Intelligence Fundamentals" />
+  <img width="30%" src="./assets/ibm-ai-fundamentals.png" alt="IBM SkillsBuild - Artificial Intelligence Fundamentals" />
 </a>
 
 </div>
