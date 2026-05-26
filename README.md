@@ -1,7 +1,7 @@
 <!-- HERO -->
 <div align="center">
 
-<img width="100%" src="./assets/github-banner.png" alt="Matteo Benfatto - Futuristic AI Banner" />
+<img width="100%" src="./assets/github-banner.png" alt="Matteo Benfatto - MyPersonalBanner" />
 
 <br/><br/>
 
