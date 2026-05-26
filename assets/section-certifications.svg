@@ -1,0 +1,93 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="titleGrad" x1="220" y1="0" x2="980" y2="0">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="45%" stop-color="#DDD6FE"/>
+      <stop offset="100%" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#020617" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#38BDF8" stop-opacity="0.72"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="1"/>
+      <stop offset="82%" stop-color="#38BDF8" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="bgGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(720 75) rotate(180) scale(520 110)">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.18"/>
+      <stop offset="55%" stop-color="#2563EB" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono {
+        font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", Consolas, monospace;
+      }
+
+      .number {
+        font-size: 72px;
+        font-weight: 900;
+        letter-spacing: -2px;
+      }
+
+      .kicker {
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 3.5px;
+      }
+
+      .title {
+        font-size: 40px;
+        font-weight: 900;
+        letter-spacing: 4px;
+      }
+
+      .subtitle {
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 3.2px;
+      }
+
+      .pulse {
+        animation: pulse 3s ease-in-out infinite;
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: .45; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="150" fill="transparent"/>
+  <ellipse cx="720" cy="75" rx="520" ry="110" fill="url(#bgGlow)"/>
+
+  <text x="72" y="104" class="mono number" fill="#172033">05</text>
+
+  <text x="220" y="42" class="mono kicker" fill="#64748B">MATTEO BENFATTO // CREDENTIAL SIGNAL</text>
+
+  <circle cx="1098" cy="36" r="4" fill="#8B5CF6" filter="url(#glow)" class="pulse"/>
+
+  <text x="220" y="84" class="mono title" fill="url(#titleGrad)" filter="url(#glow)">
+    CERTIFICATIONS
+  </text>
+
+  <text x="224" y="112" class="mono subtitle" fill="#7C8AA5">
+    VERIFIED LEARNING · AI FOUNDATIONS · MACHINE VISION · INTELLIGENT SYSTEMS
+  </text>
+
+  <rect x="220" y="126" width="900" height="2.5" rx="1.25" fill="url(#lineGrad)" opacity="0.95"/>
+
+  <circle cx="460" cy="127.25" r="3.2" fill="#38BDF8" filter="url(#glow)"/>
+  <circle cx="720" cy="127.25" r="3.2" fill="#8B5CF6" filter="url(#glow)"/>
+  <circle cx="980" cy="127.25" r="3.2" fill="#67E8F9" filter="url(#glow)"/>
+</svg>
