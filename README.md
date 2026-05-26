@@ -1,7 +1,7 @@
 <!-- HERO -->
 <div align="center">
 
-<img width="100%" src="./assets/github-banner.png" alt="Matteo Benfatto - MyPersonalBanner" />
+<img width="100%" src="./assets/github-banner1.png" alt="Matteo Benfatto - MyPersonalBanner" />
 
 <br/><br/>
 
