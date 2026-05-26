@@ -26,11 +26,11 @@
 
 <br/>
 
-<a href="https://linkedin.com/in/matteobenfatto97">
+<a href="https://linkedin.com/in/benfattomatteo">
   <img width="31.5%" src="./assets/contact-linkedin.svg" alt="Connect on LinkedIn" />
 </a>
 &nbsp;
-<a href="https://github.com/matteobenfatto97">
+<a href="https://github.com/benfattomatteo">
   <img width="31.5%" src="./assets/contact-github.svg" alt="Explore GitHub" />
 </a>
 &nbsp;
@@ -203,7 +203,7 @@ Applied AI · Machine Vision · Intelligent Software Systems
 
 <br/>
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=matteobenfatto97&bg_color=050816&color=CBD5E1&line=8B5CF6&point=67E8F9&area=true&area_color=8B5CF6&hide_border=true&radius=16&custom_title=Development%20Activity%20Trace" />
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=benfattomatteo&bg_color=050816&color=CBD5E1&line=8B5CF6&point=67E8F9&area=true&area_color=8B5CF6&hide_border=true&radius=16&custom_title=Development%20Activity%20Trace" />
 
 <br/><br/>
 
