@@ -181,48 +181,18 @@ const matteo = {
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,24,20,11,6" />
 
+
 <div align="center">
 
 <img width="100%" src="./assets/section-certifications.svg" alt="Certifications" />
 
 <br/>
 
-<table>
-<tr>
-<td width="24%" align="center">
-
-<a href="INSERISCI_LINK_CREDENZIALE">
-  <img width="180" src="./assets/ibm-ai-fundamentals.png" alt="IBM SkillsBuild - Artificial Intelligence Fundamentals" />
-</a>
-
-</td>
-<td width="76%" align="left">
-
-<p><strong>VERIFIED CREDENTIAL // IBM SKILLSBUILD</strong></p>
-
-<h2>Artificial Intelligence Fundamentals</h2>
-
-<p>
-A foundational credential focused on AI concepts, intelligent software systems and emerging machine vision workflows.
-</p>
-
-<p>
-  <code>Artificial Intelligence</code>
-  <code>Machine Vision</code>
-  <code>Intelligent Systems</code>
-  <code>AI Foundations</code>
-</p>
-
 <a href="https://www.credly.com/badges/4e1a41ce-f000-4444-a3a5-6e4c1cc1e508/public_url">
-  <strong>VERIFY CREDENTIAL ↗</strong>
+  <img width="300" src="./assets/ibm-ai-fundamentals.png" alt="IBM SkillsBuild - Artificial Intelligence Fundamentals" />
 </a>
-
-</td>
-</tr>
-</table>
 
 </div>
-
 
 <div align="center">
 
