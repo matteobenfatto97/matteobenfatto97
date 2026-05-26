@@ -50,7 +50,6 @@
 
 ```ts
 const matteo = {
-  codename: "Leo Node",
 
   identity: {
     name: "Matteo Benfatto",
