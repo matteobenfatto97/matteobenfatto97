@@ -1,8 +1,8 @@
 <!-- HERO -->
 <div align="center">
-
-<img width="100%" src="./assets/github-banner.png" alt="Matteo Benfatto - MyBanner" />
-
+<p align="center">
+  <img src="./assets/github-banner.png" alt="Matteo Benfatto - AI/ML Engineer Banner" width="100%" />
+</p>
 <br/><br/>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=6,11,20,24,30" />
