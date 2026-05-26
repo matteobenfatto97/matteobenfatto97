@@ -148,7 +148,7 @@
   <path d="M252 204 V242" stroke="#A78BFA" stroke-opacity="0.38" stroke-width="2"/>
 
   <!-- Your real PNG -->
-  <image href="./ibm-ai-fundamentals.png" x="82" y="102" width="172" height="142" preserveAspectRatio="xMidYMid meet"/>
+   <image href="https://raw.githubusercontent.com/benfattomatteo/benfattomatteo/main/assets/ibm-ai-fundamentals.png" x="82" y="102" width="172" height="142" preserveAspectRatio="xMidYMid meet"/>
 
   <!-- Right content -->
   <text x="322" y="106" class="mono kicker" fill="#7C8AA5">CREDENTIAL // AI FOUNDATIONS</text>
