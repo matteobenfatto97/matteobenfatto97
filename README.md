@@ -213,7 +213,7 @@ A foundational credential focused on AI concepts, intelligent software systems a
   <code>AI Foundations</code>
 </p>
 
-<a href="INSERISCI_LINK_CREDENZIALE">
+<a href="https://www.credly.com/badges/4e1a41ce-f000-4444-a3a5-6e4c1cc1e508/public_url">
   <strong>VERIFY CREDENTIAL ↗</strong>
 </a>
 
